@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7624e697-cb4c-43c1-bc2c-a4eccb6efa73</ProjectGuid>
+    <ProjectGuid>a55f7243-46b5-49b6-a556-c0c0a80f81a0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>UDPServer.py</StartupFile>
+    <StartupFile>TCPServer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>UDP</Name>
-    <RootNamespace>UDP</RootNamespace>
+    <Name>TCP</Name>
+    <RootNamespace>TCP</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
     <InterpreterId>Global|PythonCore|2.7-32</InterpreterId>
   </PropertyGroup>
@@ -23,10 +23,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="UDPClient.py">
+    <Compile Include="TCPClient.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="UDPServer.py" />
+    <Compile Include="TCPServer.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|2.7-32" />
